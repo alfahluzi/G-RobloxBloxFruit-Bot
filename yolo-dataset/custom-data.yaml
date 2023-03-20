@@ -1,0 +1,9 @@
+# change version folder if needs
+train: ../yolo-dataset/v2/images/train/ # train images (relative to 'path') 128 images
+val: ../yolo-dataset/v2/images/val/ # val images (relative to 'path') 128 images
+
+# Classes
+names:
+  0: enemy
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
